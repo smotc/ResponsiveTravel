@@ -1,0 +1,144 @@
+/* Shannon McKaig Buffington */
+/* Responsive Hawaiians */
+/* June 30, 2023 */
+
+/* default styles */
+
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(images/Insadong-street-scene.png);
+    background-position: top;
+    background-size: cover;
+    height: 300px;
+}
+
+
+h1 {
+    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    color: white;
+    margin: 0px;
+    line-height: .7em;
+    position: relative;
+    padding: 140px 0 0 20px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.289);
+}
+
+
+.container {
+    width: 85%;
+    margin: auto;
+    background-color: rgb(198, 240, 166);
+}
+
+.topsection {
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.left,
+.right {
+    width: 15%;
+    float: left;
+}
+
+.center {
+    width: 70%;
+    float: left;
+}
+
+h2 {
+    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 34px;
+    padding: 30px 0px;
+}
+
+.midsection {
+    float: none;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    float: none;
+    background-color: orange;
+    text-align: center;
+    padding: 50px, 0, 50px, 0;
+}
+
+.exp {}
+
+
+h3 {
+    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+
+p {
+    font-family: 'Libre Caslon Text', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+.button {
+    background-color: white;
+    color: #6B91CA;
+    border: 2px solid #6B91CA;
+    border-radius: 4px;
+    font-size: 20px;
+    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 20px 0px;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+
+.button:hover {
+    background-color: #6B91CA;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button a:visited {
+    color: gray;
+}
+
+
+/* responsive styles */
+
+@media screen and (min-width: 600px) {
+    img {
+        width: 50%;
+        float: left;
+        margin: 0px 20px 20px 0px;
+    }
+
+    hr {
+        float: none;
+        clear: both;
+    }
+
+}
