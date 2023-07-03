@@ -36,7 +36,7 @@ h1 {
 .container {
     width: 85%;
     margin: auto;
-    background-color: rgb(246, 234, 183);
+    background-color: white;
 }
 
 .topsection {
@@ -76,10 +76,10 @@ footer {
     float: none;
     background-color: orange;
     text-align: center;
-    padding: 50px, 0, 50px, 0;
+    padding: 50px 0px 50px 0px;
+    font-family: 'Squada One', Arial, Helvetica, sans-serif;
+    font-size: 21px;
 }
-
-.exp {}
 
 
 h3 {
@@ -123,13 +123,13 @@ a {
 }
 
 .button a:visited {
-    color: gray;
+    color: rgb(17, 82, 174);
 }
 
 
 /* responsive styles */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
     img {
         width: 50%;
         float: left;
@@ -139,6 +139,7 @@ a {
     h3 {
         margin: 0px;
     }
+
     hr {
         float: none;
         clear: both;
@@ -147,15 +148,61 @@ a {
 }
 
 @media screen and (min-width: 1000px) {
+
+    header {
+        height: 400px;
+    }
+
+    h1 {
+        padding: 160px 0 0 20px;
+        font-size: 160px;
+    }
+
     img {
         width: 100%;
         float: none;
-        margin: 0px ;
+        margin: 0px;
+    }
+
+    h2 {
+        font-size: 65px;
+    }
+
+    h3 {
+        font-size: 50px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 21px;
+        text-align: center;
     }
 
     hr {
         float: none;
         clear: both;
+    }
+
+    .button {
+        display: block;
+        width: 30%;
+        position: relative;
+        left: 35%;
+        right: 35%;
+        font-size: 30px;
+    }
+
+
+    .left,
+    .right {
+        width: 10%;
+        float: left;
+    }
+
+    .center {
+        width: 80%;
+        float: left;
     }
 
 }
